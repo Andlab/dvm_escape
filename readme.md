@@ -7,7 +7,8 @@
     adb install DvmEscape.apk	
 	adb install CalcExe.apk
 
-2.open DvmEscape.apk inside your android device
+2.open DvmEscape.apk inside your android device,then run command
 	
 	python adb_type.py $(cat payload.txt)
 
+3.click run dalvik button and enjoy
